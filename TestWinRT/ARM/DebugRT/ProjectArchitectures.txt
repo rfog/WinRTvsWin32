@@ -1,0 +1,1 @@
+T:\Projects\WinRTvsWin32\TestWinRT\TestWinRT.vcxproj;arm

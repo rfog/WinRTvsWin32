@@ -1,0 +1,55 @@
+﻿Build started 21/03/2013 21:09:31.
+     1>Project "T:\Projects\WinRTvsWin32\TestWinRT\TestWinRT.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_ARM\CL.exe /c /IT:\Projects\WinRTvsWin32\TestWinRT\ /I"Generated Files\\" /IARM\DebugRT\ /Zi /ZW /ZW:nostdlib /nologo /W3 /WX- /sdl /MP /Od /Oy- /D _UNICODE /D UNICODE /D _DEBUG /D WINAPI_FAMILY=WINAPI_FAMILY_APP /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"pch.h" /Fp"ARM\DebugRT\TestWinRT.pch" /Fo"ARM\DebugRT\\" /Fd"ARM\DebugRT\vc110.pdb" /Gd /TP /wd4453 /FU"C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.VCLibs\11.0\References\CommonConfiguration\neutral\platform.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral\Windows.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral\Windows.winmd" /analyze- /errorReport:prompt /bigobj pch.cpp
+         pch.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_ARM\CL.exe /c /IT:\Projects\WinRTvsWin32\TestWinRT\ /I"Generated Files\\" /IARM\DebugRT\ /Zi /ZW /ZW:nostdlib /nologo /W3 /WX- /sdl /MP /Od /Oy- /D _UNICODE /D UNICODE /D _DEBUG /D WINAPI_FAMILY=WINAPI_FAMILY_APP /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"pch.h" /Fp"ARM\DebugRT\TestWinRT.pch" /Fo"ARM\DebugRT\\" /Fd"ARM\DebugRT\vc110.pdb" /Gd /TP /wd4453 /FU"C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.VCLibs\11.0\References\CommonConfiguration\neutral\platform.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral\Windows.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral\Windows.winmd" /analyze- /errorReport:prompt /bigobj App.xaml.cpp Common\BindableBase.cpp Common\BooleanToVisibilityConverter.cpp Common\BooleanNegationConverter.cpp Common\LayoutAwarePage.cpp Common\RichTextColumns.cpp Common\SuspensionManager.cpp ItemsPage.xaml.cpp SplitPage.xaml.cpp DataModel\SampleDataSource.cpp "Generated Files\XamlTypeInfo.Impl.g.cpp"
+         App.xaml.cpp
+         BindableBase.cpp
+         BooleanToVisibilityConverter.cpp
+         BooleanNegationConverter.cpp
+         LayoutAwarePage.cpp
+         RichTextColumns.cpp
+         SuspensionManager.cpp
+         ItemsPage.xaml.cpp
+         SplitPage.xaml.cpp
+         SampleDataSource.cpp
+         XamlTypeInfo.Impl.g.cpp
+       CreateWinMD:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_ARM\link.exe /ERRORREPORT:PROMPT /OUT:"T:\Projects\WinRTvsWin32\ARM\DebugRT\TestWinRT\TestWinRT.exe" /INCREMENTAL /NOLOGO kernel32.lib /MANIFEST:NO /DEBUG /PDB:"T:\Projects\WinRTvsWin32\ARM\DebugRT\TestWinRT\TestWinRT.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /APPCONTAINER /WINMD:ONLY /WINMDFILE:"T:\Projects\WinRTvsWin32\ARM\DebugRT\TestWinRT\TestWinRT.winmd" /DYNAMICBASE /NXCOMPAT /MACHINE:ARM ARM\DebugRT\App.xaml.obj
+         ARM\DebugRT\BindableBase.obj
+         ARM\DebugRT\BooleanToVisibilityConverter.obj
+         ARM\DebugRT\BooleanNegationConverter.obj
+         ARM\DebugRT\LayoutAwarePage.obj
+         ARM\DebugRT\RichTextColumns.obj
+         ARM\DebugRT\SuspensionManager.obj
+         ARM\DebugRT\ItemsPage.xaml.obj
+         ARM\DebugRT\SplitPage.xaml.obj
+         ARM\DebugRT\SampleDataSource.obj
+         ARM\DebugRT\pch.obj
+         ARM\DebugRT\XamlTypeInfo.Impl.g.obj
+       CompileXamlGeneratedFiles:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_ARM\CL.exe /c /IT:\Projects\WinRTvsWin32\TestWinRT\ /I"Generated Files\\" /IARM\DebugRT\ /Zi /ZW /ZW:nostdlib /nologo /W3 /WX- /sdl /MP /Od /Oy- /D _UNICODE /D UNICODE /D _DEBUG /D WINAPI_FAMILY=WINAPI_FAMILY_APP /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"pch.h" /Fp"ARM\DebugRT\TestWinRT.pch" /Fo"ARM\DebugRT\\" /Fd"ARM\DebugRT\vc110.pdb" /Gd /TP /wd4453 /FU"C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.VCLibs\11.0\References\CommonConfiguration\neutral\platform.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral\Windows.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral\Windows.winmd" /analyze- /errorReport:prompt /bigobj "Generated Files\XamlTypeInfo.g.cpp"
+         XamlTypeInfo.g.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_ARM\link.exe /ERRORREPORT:PROMPT /OUT:"T:\Projects\WinRTvsWin32\ARM\DebugRT\TestWinRT\TestWinRT.exe" /INCREMENTAL /NOLOGO kernel32.lib /MANIFEST:NO /DEBUG /PDB:"T:\Projects\WinRTvsWin32\ARM\DebugRT\TestWinRT\TestWinRT.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /APPCONTAINER /WINMD:NO /WINMDFILE:"T:\Projects\WinRTvsWin32\ARM\DebugRT\TestWinRT\TestWinRT.winmd" /DYNAMICBASE /NXCOMPAT /MACHINE:ARM ARM\DebugRT\App.xaml.obj
+         ARM\DebugRT\BindableBase.obj
+         ARM\DebugRT\BooleanToVisibilityConverter.obj
+         ARM\DebugRT\BooleanNegationConverter.obj
+         ARM\DebugRT\LayoutAwarePage.obj
+         ARM\DebugRT\RichTextColumns.obj
+         ARM\DebugRT\SuspensionManager.obj
+         ARM\DebugRT\ItemsPage.xaml.obj
+         ARM\DebugRT\SplitPage.xaml.obj
+         ARM\DebugRT\SampleDataSource.obj
+         ARM\DebugRT\pch.obj
+         ARM\DebugRT\XamlTypeInfo.Impl.g.obj
+         ARM\DebugRT\XamlTypeInfo.g.obj
+         TestWinRT.vcxproj -> T:\Projects\WinRTvsWin32\ARM\DebugRT\TestWinRT\TestWinRT.exe
+       _GenerateProjectPriFileCore:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\MakePri.exe New -ProjectRoot T:\Projects\WinRTvsWin32\TestWinRT\ -ConfigXml ARM\DebugRT\priconfig.xml -OutputFile T:\Projects\WinRTvsWin32\ARM\DebugRT\TestWinRT\resources.pri -IndexName 92122c7a-ae4a-4803-a283-48d0388769d4 -Verbose -Overwrite  
+     1>Done Building Project "T:\Projects\WinRTvsWin32\TestWinRT\TestWinRT.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:19.39
